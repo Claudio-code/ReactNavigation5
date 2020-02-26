@@ -115,6 +115,34 @@ const TopTab = () => {
           ),
         }}
       />
+
+      <TopTabsStack.Screen
+        name="bell"
+        component={Face}
+        options={{
+          tabBarLabel: ({ color }) => (
+            <MaterialCommunityIcons
+              name="bell"
+              color={color}
+              size={40}
+            />
+          ),
+        }}
+      />
+
+      <TopTabsStack.Screen
+        name="menu"
+        component={Face}
+        options={{
+          tabBarLabel: ({ color }) => (
+            <MaterialCommunityIcons
+              name="menu"
+              color={color}
+              size={40}
+            />
+          ),
+        }}
+      />
     </TopTabsStack.Navigator>
   );
 }
