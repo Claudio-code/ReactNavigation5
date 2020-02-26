@@ -22,7 +22,7 @@ export default function ButtonsTop() {
       >
         <MaterialIcons
           name="search"
-          color="#424242"
+          color="#616161"
           size={30}
           style={{
             padding: '1%'
@@ -33,7 +33,7 @@ export default function ButtonsTop() {
       <ButtonMessage>
         <MaterialCommunityIcons
           name="facebook-messenger"
-          color="#424242"
+          color="#616161"
           size={30}
           style={{
             padding: '1%'
