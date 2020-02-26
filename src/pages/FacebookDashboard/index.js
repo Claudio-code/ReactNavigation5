@@ -5,9 +5,6 @@ import { View } from 'react-native';
 
 export default function FacebookDashboard({ navigation }) {
 
-  // navigation.setOptions({
-  //   title: `items selected`,
-  // });
   return (
     <View />
   );
