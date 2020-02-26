@@ -1,13 +1,12 @@
 import React from 'react';
 import { StatusBar, TouchableOpacity } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import FacebookLogo from '../../../assets/facebookLogo.png';
+import ButtonsTop from '../../Facebook/ButtonsTop';
 import {
   Container,
   Logo,
   ContainerHeaderTop,
-  ButtonSearch
 } from './styles';
 
 export default function HeaderFace() {
@@ -17,7 +16,11 @@ export default function HeaderFace() {
         backgroundColor="#FFF"
         barStyle="dark-content"
       />
-      <Logo source={FacebookLogo} />
+      <ContainerHeaderTop>
+
+        <Logo source={FacebookLogo} />
+        <ButtonsTop />
+      </ContainerHeaderTop>
     </Container>
   );
 }
