@@ -1,31 +1,24 @@
-import React from 'react';
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import React from "react";
+import MaterialIcons from "react-native-vector-icons/MaterialIcons";
+import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
-import {
-  Container,
-  ButtonSearch,
-  ButtonMessage
-} from './styles';
+import { Container, ButtonSearch, ButtonMessage } from "./styles";
 
 export default function ButtonsTop() {
-
   function handle() {
-    console.log('quai');
+    console.log("quai");
   }
 
   return (
     <Container>
 
-      <ButtonSearch
-        onPress={handle}
-      >
+      <ButtonSearch onPress={handle}>
         <MaterialIcons
           name="search"
           color="#616161"
           size={30}
           style={{
-            padding: '1%'
+            padding: "1%",
           }}
         />
       </ButtonSearch>
@@ -36,10 +29,11 @@ export default function ButtonsTop() {
           color="#616161"
           size={30}
           style={{
-            padding: '1%'
+            padding: "1%",
           }}
         />
       </ButtonMessage>
+
     </Container>
   );
 }
