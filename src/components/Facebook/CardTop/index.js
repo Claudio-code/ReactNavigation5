@@ -1,13 +1,12 @@
-import React from 'react';
-import { View , Text} from 'react-native';
-
+import React from "react";
+import ButtonShare from "../ButtonShare";
 import {
   Container,
   ImageUser,
   ContainerForm,
   ContainerInput,
   Input
-} from './styles';
+} from "./styles";
 
 export default function CardTop() {
   return (
@@ -24,6 +23,7 @@ export default function CardTop() {
           />
         </ContainerInput>
       </ContainerForm>
+      <ButtonShare/>
     </Container>
   );
 }

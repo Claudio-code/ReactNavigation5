@@ -1,7 +1,7 @@
-import styled from 'styled-components/native';
+import styled from "styled-components/native";
 
 export const Container = styled.View`
-  background-color: #FFF;
+  background-color: #fff;
   padding: 4%;
 `;
 
@@ -18,7 +18,7 @@ export const ContainerForm = styled.View`
 `;
 
 export const Input = styled.TextInput.attrs({
-  placeholderTextColor: "#424242"
+  placeholderTextColor: "#424242",
 })`
   font-size: 16px;
   margin-left: 3%;
