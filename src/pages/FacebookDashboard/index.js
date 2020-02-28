@@ -1,11 +1,14 @@
-import React from 'react';
-import { View } from 'react-native';
+import React from "react";
 
-// import { Container } from './styles';
-import CardTop from '../../components/Facebook/CardTop';
-export default function FacebookDashboard({ navigation }) {
+import { Container } from './styles';
+import CardTop from "../../components/Facebook/CardTop";
+
+export default function FacebookDashboard() {
 
   return (
-    <CardTop />
+    <Container>
+      <CardTop />
+
+    </Container>
   );
 }
