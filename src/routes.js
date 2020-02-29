@@ -6,7 +6,6 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import FacebookDashboard from './pages/FacebookDashboard';
-import YoutubeDashboard from './pages/YoutubeDashboard';
 
 import HeaderFace from './components/Headers/HeaderFace';
 import { color } from 'react-native-reanimated';
@@ -32,15 +31,6 @@ const Face = () => {
       />
 
     </FaceStack.Navigator>
-  );
-}
-
-const Youtube = () => {
-
-  return (
-    <YoutubeStack.Navigator>
-      <YoutubeStack.Screen name="Youtube" component={YoutubeDashboard} />
-    </YoutubeStack.Navigator>
   );
 }
 
