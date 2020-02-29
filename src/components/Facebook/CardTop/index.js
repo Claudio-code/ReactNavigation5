@@ -19,7 +19,7 @@ export default function CardTop() {
         />
         <ContainerInput>
           <Input
-            placeholder="No que você está pensando?"
+            placeholder="What is on your mind?"
           />
         </ContainerInput>
       </ContainerForm>
