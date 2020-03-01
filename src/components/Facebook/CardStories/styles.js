@@ -4,8 +4,9 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 export const Container = styled.View`
   background-color: #FFF;
   margin-top: 4%;
-  padding-top: 10%;
+  padding-top: 5%;
   padding-left: 3%;
+  padding-bottom: -10%;
   align-items: center;
 `;
 
@@ -13,8 +14,9 @@ export const TextStories = styled.Text`
   align-self: center;
   margin-right: 4%;
   font-weight: bold;
-  bottom: 24%;
-  color: #424242;
+  right: 2%;
+  bottom: 27%;
+  color: #FFF;
 `;
 
 export const ImgStories = styled.Image`
@@ -39,7 +41,7 @@ export const Icon = styled(MaterialCommunityIcons)`
 `;
 
 export const ContainerImgStories = styled.View`
-  bottom: 74%;
+  bottom: 84%;
   left: 10%;
   background-color: #fff;
   align-items: center;

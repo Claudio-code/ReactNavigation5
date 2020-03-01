@@ -16,7 +16,7 @@ const DATA = [
   {
     id: 1,
     title: 'Text stories',
-    img: stories1
+    img: stories2
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const DATA = [
   {
     id: 4,
     title: 'Text stories',
-    img: stories1
+    img: stories2
   },
   {
     id: 5,
@@ -51,6 +51,7 @@ export default function CardStories() {
       <FlatList
         data={DATA}
         horizontal={true}
+
         showsHorizontalScrollIndicator={false}
         renderItem={({ item }) => (
           <RectButton>
@@ -84,7 +85,7 @@ export default function CardStories() {
             </TextStories>
           </RectButton>
         )}
-        keyExtractor={item => item.id}
+        keyExtractor={item => String(item.id)}
       />
     </Container>
   );
