@@ -1,6 +1,6 @@
 # Testando ReactNavigation v5
 
-Testando como implementar essa nova versão da biblioteca que infelizmente muda a cada update.
+Testando como implementar essa nova versão da biblioteca que teve grandes mudanças.
 
 ## Tela construida Dashboard do Facebook
 
